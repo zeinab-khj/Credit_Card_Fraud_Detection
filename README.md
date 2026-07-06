@@ -120,7 +120,7 @@ Evaluation metrics:
 - Recall
 - F1-score
 
-✔ **Best Model: RandomForest**
+✔ **Best Baseline Model: RandomForest**
 
 **why Random Forest?**
 Random Forest was selected as the final model because it consistently outperformed the other algorithms during benchmarking. Its performance was further improved through Optuna-based hyperparameter optimization and threshold tuning.

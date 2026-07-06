@@ -99,7 +99,9 @@ The EDA focused on:
 - Distribution of numerical features
 - Correlation with the target variable
 - Statistical analysis of PCA-transformed features
-- Feature selection using baseline experiments
+- Feature importance analysis
+- Correlation analysis
+- Distribution analysis
 
 Since most predictors are PCA-transformed components (`V1–V28`), the analysis emphasizes statistical behavior rather than semantic interpretation.
 
@@ -150,7 +152,6 @@ The best configuration was then retrained on the full training dataset.
 - max_depth
 - n_estimators
 
-  ✔ Optimization improved model stability and generalization.
 ---
 
 ## 📈 Threshold Optimization
